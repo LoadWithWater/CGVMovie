@@ -37,13 +37,13 @@ python app.py
 실행된 GUI에서 실시간으로 CGV 영화 예매율 순위를 확인할 수 있습니다.
 
 ### 🛠 의존성
-Python 3.x
-requests
-BeautifulSoup4
-Tkinter
-Selenium (크롬 브라우저 조작을 위한 라이브러리)
-ChromeDriverManager (자동으로 ChromeDriver 설치 및 관리)
-Chrome 브라우저
+● Python 3.x <br/>
+● requests <br/>
+● BeautifulSoup4 <br/>
+● Tkinter <br/>
+● Selenium (크롬 브라우저 조작을 위한 라이브러리) <br/>
+● ChromeDriverManager (자동으로 ChromeDriver 설치 및 관리) <br/>
+● Chrome 브라우저 <br/>
 
 ### ⚠️ 주의사항
 CGV 웹사이트의 구조가 변경될 경우 크롤링이 정상적으로 동작하지 않을 수 있습니다. 이 경우 BeautifulSoup의 CSS 셀렉터(.sect-movie-chart ol li)를 업데이트해야 합니다.
